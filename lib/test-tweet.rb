@@ -15,11 +15,7 @@ def login_twitter
         config.access_token        = ENV["TWITTER_ACCESS_TOKEN"]
         config.access_token_secret = ENV["TWITTER_ACCESS_TOKEN_SECRET"]
     end
-    puts ENV["TWITTER_CONSUMER_KEY"]
-    puts ENV["TWITTER_CONSUMER_SECRET"]
-    puts ENV["TWITTER_ACCESS_TOKEN"]
-    puts ENV["TWITTER_ACCESS_TOKEN_SECRET"]
-    client.update('Mon premier tweet en Ruby !!!!')
+    #client.update('Mon premier tweet en Ruby !!!!')  #ne sert que pour tester la connexion first time ever
 end
 
 # ligne qui permet de tweeter sur ton compte
